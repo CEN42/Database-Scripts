@@ -203,7 +203,7 @@ CREATE TABLE [dbo].[Customers](
 	[lastname] [varchar](50) NOT NULL,
 	[firstname] [varchar](50) NOT NULL,
 	[email] [varchar](50) NOT NULL,
-	[rewars] [int] NULL,
+	[rewards] [int] NULL,
 	[phonenumber] [bigint] NOT NULL,
  CONSTRAINT [PK_Customers] PRIMARY KEY CLUSTERED 
 (
