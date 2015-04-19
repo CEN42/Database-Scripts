@@ -242,11 +242,8 @@ CREATE TABLE [dbo].[Reservations](
 	[reser_id] [int] IDENTITY(1,1) NOT NULL,
 	[userid] [int] NOT NULL,
 	[tempid] [int] NOT NULL,
-	[resdate] [date] NOT NULL,
 	[resStart] [smalldatetime] NOT NULL,
 	[resEnd] [smalldatetime] NOT NULL,
-	[starttime] [time](7) NOT NULL,
-	[endtime] [time](7) NOT NULL,
 	[serviceid] [int] NOT NULL,
 	[stylistid] [int] NOT NULL,
 PRIMARY KEY CLUSTERED 
